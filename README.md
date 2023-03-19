@@ -11,6 +11,6 @@ This will activate your virtual environment and your shell prompt is prefixed wi
 
 3. From your virtual environment shell, run the following commands to successfully upgrade pip and install PyTorch and other dependencies: 
 
-pip install --upgrade pip
-pip install torch==1.7.0+cpu torchvision==0.8.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
-pip install tqdm
+## pip install --upgrade pip
+## pip install torch==1.7.0+cpu torchvision==0.8.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+## pip install tqdm
