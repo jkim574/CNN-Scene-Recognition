@@ -16,8 +16,6 @@ A Dense layer with 128 nodes and a ReLU activation.
 A Dense layer with 64 nodes and a ReLU activation.
 A Dense layer with 10 nodes.
 
-Dataset
-
 Dataset is MiniPlaces that has 120K images from 100 scene categories. The categories are mutually exclusive. The dataset is split into 100K images for training, 10K images for validation, and 10K for testing.
 
 The original image resolution for images in MiniPlaces is 128x128. To make the training feasible, data loader reduces the image resolution to 32x32. Our data loader will also download the full dataset the first time you run train_miniplaces.py. 
