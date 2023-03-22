@@ -1,5 +1,6 @@
 # CNN-for-scene-recognition
-## 1. Setup a Python Virtual Environment: 
+## Installation
+1. Setup a Python Virtual Environment: 
 
 ```
 python3 -m venv --system-site-packages ~/PyTorch
@@ -30,10 +31,9 @@ deactivate
 pip freeze > setup_output.txt
 ```
 
+## Designed a convolutional network for the MiniPlaces dataset
 
 I built my own network with basic building block for neural networks.
-
-
 
 Dataset is MiniPlaces that has 120K images from 100 scene categories. The categories are mutually exclusive. The dataset is split into 100K images for training, 10K images for validation, and 10K for testing. The original image resolution for images in MiniPlaces is 128x128. To make the training feasible, data loader reduces the image resolution to 32x32. The data loader will also download the full dataset the first time you run train_miniplaces.py. 
 
