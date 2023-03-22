@@ -1,4 +1,4 @@
-# CNN-for-scene-recognition
+# CNN for scene recognition
 ## Installation
 1. Setup a Python Virtual Environment: 
 
