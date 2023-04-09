@@ -44,7 +44,5 @@ An implementation of LeNet-5 is provided as SimpleConvNet class in student_code.
 - A Dense layer with 10 nodes.
 
 
-checkpoint.pth.tar is the model checkpoint at the latest epoch.
-model_best.pth.tar is the model weights that has highest accuracy on the validation set. 
 
 
