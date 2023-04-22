@@ -41,7 +41,7 @@ An implementation of LeNet-5 is provided as SimpleConvNet class in student_code.
 - A Flatten layer to convert the 2D pixel array to a 1D array of numbers
 - A Dense layer with 128 nodes and a ReLU activation.
 - A Dense layer with 64 nodes and a ReLU activation.
-- A Dense layer with 10 nodes.
+- A Dense layer with 10 nodes
 
 
 
